@@ -1,0 +1,43 @@
+
+  
+  .card {
+    width: 100%; /* Use a percentage for responsive width */
+    max-width: 250px; /* Set a maximum width to prevent cards from getting too large */
+    height: auto; /* Allow height to adjust based on content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .logo {
+    width: 70px; /* Fixed width for all logos */
+    height: 70px; /* Fixed height for all logos */
+    object-fit: contain; /* Ensure the logos fit within the container without distortion */
+    background-color: white; /* Optional: give a consistent background color */
+    border-radius: 10px; /* Optional: rounded corners for logos */
+    padding: 10px; /* Optional: padding around logos */
+  }
+  
+  .heading {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:sans-serif;
+    margin-top: 10px;
+  }
+  
+  .description {
+    color: #969090;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.4;
+  }
+  
