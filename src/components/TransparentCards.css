@@ -1,9 +1,9 @@
 
   
   .card {
-    width: 100%; /* Use a percentage for responsive width */
-    max-width: 250px; /* Set a maximum width to prevent cards from getting too large */
-    height: auto; /* Allow height to adjust based on content */
+    width: 100%; 
+    max-width: 250px; 
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,12 +18,12 @@
   }
   
   .logo {
-    width: 70px; /* Fixed width for all logos */
-    height: 70px; /* Fixed height for all logos */
-    object-fit: contain; /* Ensure the logos fit within the container without distortion */
-    background-color: white; /* Optional: give a consistent background color */
-    border-radius: 10px; /* Optional: rounded corners for logos */
-    padding: 10px; /* Optional: padding around logos */
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    background-color: white; 
+    border-radius: 10px;
+    padding: 10px;
   }
   
   .heading {
